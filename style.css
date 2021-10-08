@@ -1,0 +1,110 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    display: grid;
+    place-items: center;
+    height: 97vh;
+    background: #00416A;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E4E5E6, #00416A);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E4E5E6, #00416A);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #334d50;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #cbcaa5, #334d50);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #cbcaa5, #334d50);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 20px 20px;
+    width: 500px;
+    overflow: hidden;
+    border: 1px solid black;
+}
+
+h1 {
+    margin-top: -.7rem;
+}
+
+button {
+    outline: none;
+    border: none;
+    width: 580px;
+    margin-left: -1.3rem;
+    background-color: rgb(210, 255, 255);
+    height: 2rem;
+    margin-bottom: -1.3rem;
+    font-size: 1.3rem;
+    padding: 3px;
+    cursor: pointer;
+    border-top: 1px solid black;
+}
+
+button:hover {
+    text-decoration-line: underline;
+}
+
+h2 {
+    margin-bottom: 3rem;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+@media (max-width:760px) {
+    body {
+        font-family: 'Source Sans Pro', sans-serif;
+        display: grid;
+        place-items: center;
+        height: 97vh;
+        background: #00416A;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #E4E5E6, #00416A);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #E4E5E6, #00416A);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background: #334d50;
+        background: -webkit-linear-gradient(to right, #cbcaa5, #334d50);
+        background: linear-gradient(to right, #cbcaa5, #334d50);
+        padding: 20px 20px;
+        width: 300px;
+        overflow: hidden;
+        border: 1px solid black;
+    }
+    h1 {
+        margin-top: -.7rem;
+        font-size: 1.25rem;
+    }
+    button {
+        outline: none;
+        border: none;
+        width: 580px;
+        margin-left: -1.3rem;
+        background-color: rgb(210, 255, 255);
+        height: 2rem;
+        margin-bottom: -1.3rem;
+        font-size: 1.3rem;
+        padding: 3px;
+        cursor: pointer;
+        border-top: 1px solid black;
+    }
+    button:hover {
+        text-decoration-line: underline;
+    }
+    h2 {
+        margin-bottom: 3rem;
+        text-align: center;
+        font-size: 1.3rem;
+    }
+}
